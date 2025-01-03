@@ -5,7 +5,7 @@
 
 This repository contains the Jupyter Notebook `UDA_HW_4_Broomhead.ipynb`, which explores advanced imaging techniques for reversing swirl distortions in facial images. 
 
-It also contains an example of 35 images from test/swirled and 35 images from train/swirled. The code for creation of the full synthetic dataset and structure is detialed in the notebook. 
+It also contains an example of some of the images from my test dataset Note that these images were limited by upload amount, and may not neccessarily be matching pairs, they are just for use in examples. The code for creation of the full synthetic dataset and structure is detialed in the notebook. 
 
 The work creates and leverages a synthetic dataset of swirled and unswirled image pairs from the EasyPortrait dataset and introduces a Distortion Field U-Net model. The model predicts pixel displacement fields to reverse swirl distortions without requiring prior knowledge of the distortion parameters or software used to create them.
 
